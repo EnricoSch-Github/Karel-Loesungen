@@ -1,0 +1,55 @@
+void mowTheLawn()
+{
+    repeat (13)
+    {
+        checken1();
+    }
+    repeat (7)
+    {
+        checken2();
+    }
+    repeat (7)
+    {
+        checken1();
+    }
+    repeat (7)
+    {
+        checken2();
+    }
+    repeat (7)
+    {
+        checken1();
+    }
+}
+
+
+void checken1()
+{
+    if (beeperAhead())
+    {
+        moveForward();
+        pickBeeper();
+    }else
+    {
+        moveForward();
+        turnLeft();
+        moveForward();
+        turnLeft();
+    }
+    
+}
+void checken2()
+{
+    if (beeperAhead())
+    {
+        moveForward();
+        pickBeeper();
+    }else
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        turnRight();
+    }
+    
+}
