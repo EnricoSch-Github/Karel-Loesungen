@@ -1,0 +1,51 @@
+void saveTheFlower()
+{
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    
+    repeat (12)
+    {
+        berghoch();
+    }
+    
+    dropBeeper();
+    turnRight();
+    moveForward();
+    turnRight();
+    
+    repeat (11)
+    {
+        bergrunter();
+    }
+    turnLeft();
+}
+
+
+
+void berghoch()
+{
+    if (! rightIsClear())
+    {
+        moveForward(); 
+    }else
+    {
+        turnRight();
+        moveForward();
+        turnLeft();
+    }
+    
+}
+
+void bergrunter()
+{
+    if (frontIsClear())
+    {
+        moveForward();
+    }else
+    {
+        turnLeft();
+        moveForward();
+        turnRight();
+    }
+}
