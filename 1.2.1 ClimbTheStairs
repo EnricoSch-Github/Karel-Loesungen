@@ -1,0 +1,35 @@
+void climbTheStairs()
+{
+    repeat (7)
+    {
+        treppenSteigen();
+    }
+}
+
+
+void treppenSteigen()
+{
+    
+    
+    if(frontIsClear())
+    { 
+        moveForward();
+        
+        
+    }else {
+        checken();  
+    }
+    
+} 
+
+
+void checken()
+{
+    if (! frontIsClear())
+    {
+        turnLeft();
+        moveForward();
+        turnRight();
+        moveForward();
+    }
+}
