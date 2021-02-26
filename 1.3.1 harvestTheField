@@ -1,0 +1,52 @@
+void harvestTheField()
+{
+    hoch();
+    runter();
+    hoch();
+    runter();
+}
+void hoch()
+{
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnRight();
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    moveForward();
+    turnRight();
+    moveForward();
+    pickBeeper();
+    turnLeft();
+    moveForward(); 
+}
+
+void runter()
+{   turnLeft();
+    moveForward();
+    pickBeeper();
+    moveForward();
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    turnRight();
+    moveForward();
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    turnRight();
+    moveForward();
+    turnLeft();
+    moveForward();
+    pickBeeper();
+    turnRight();
+    moveForward();
+    turnRight();
+
+}
