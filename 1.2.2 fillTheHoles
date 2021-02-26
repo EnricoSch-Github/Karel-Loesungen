@@ -1,0 +1,20 @@
+void fillTheHoles()
+{
+    repeat (4)
+    {
+        auffuellen();
+    }
+    
+    }
+    
+void auffuellen()
+    {
+        moveForward();
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    } 
