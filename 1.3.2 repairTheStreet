@@ -1,0 +1,26 @@
+void repairTheStreet()
+{
+    repeat (9)
+    {
+        StrassenRepe();
+    }
+    
+}
+
+
+void StrassenRepe()
+{
+    if (! rightIsClear())
+    {
+        moveForward();
+    }else
+    {
+        turnRight();
+        moveForward();
+        dropBeeper();
+        turnAround();
+        moveForward();
+        turnRight();
+        moveForward();
+    } 
+}
