@@ -1,0 +1,17 @@
+void removeTheTiles()
+{
+    repeat (120){
+        weg();
+    }
+    pickBeeper();
+}
+
+void weg()
+{
+    if (beeperAhead()){
+        pickBeeper();
+        moveForward();
+    }else {
+        turnLeft();
+    } 
+}
