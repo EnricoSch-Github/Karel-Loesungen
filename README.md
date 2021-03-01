@@ -1,3 +1,2 @@
 # Karel-Loesungen
-Meine persönlichen Lösungen für Karel
-Anfang der Programmierung
+Meine persönlichen Lösungen für Karel / Anfang der Programmierung
